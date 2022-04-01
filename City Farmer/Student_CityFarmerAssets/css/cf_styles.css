@@ -1,0 +1,60 @@
+/*Kevin Baer 4/1/2022*/
+@font-face {
+	font-family: 'Quick Sand';
+	src: url('../fonts/quicksand-regular-webfont.woff') format('woff');
+	src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2');
+}
+
+#outerwrapper {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+} 
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+}
+
+main, footer { 
+clear: both;
+}
+footer{
+	font-size: .75em;
+	background-color: bisque;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+body{
+	background-color: #b8d1eb;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+main{
+	background-color: #c5a98b;
+	padding: 10px;
+}
+nav ul{
+	list-style-type: none;
+}
+main ul{
+	list-style-image: url('../images/tomato.png');
+}
+h1{
+	font-size: 4em;
+	font-family: Righteous, cursive, serif;;
+}
+h2{
+	font-family: 'Quick Sand', cursive, serif;
+	font-weight: normal;
+	font-style: italic;
+}
