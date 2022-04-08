@@ -1,0 +1,59 @@
+
+/*Kevin Bear 4/8/2022 */
+@font-face {
+	font-family: Kaushan;
+	src: url(../fonts/kaushanscript-regular-webfont.woff) format(woff);
+	src: url(../fonts/kaushanscript-regular-webfont.woff2) format(woff2);
+}
+
+main {
+	background-image: linear-gradient(#FFFFFF,  #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Times New Roman', Times, serif;
+}	 
+#outerwrapper {	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	margin: 15%;
+}
+html {
+	background-image: url("../images/jewelry.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer {
+	font-size: 1em;
+	padding: 10px;
+	text-align: center;
+}
+.necklace {
+	float: left;
+	border-radius: 6em;
+}
+#addrightmargin {
+	margin-right: 10%;
+}
+.none{
+	list-style: none;
+	font-size: 1em;
+}
+h1 {
+	font-family: 'Pacifico', cursive, serif;
+	font-size: 4em;
+}
+h2 {
+	font-family: Kaushan, cursive, sans-serif;
+	font-style: italic;
+	font-size: 2em;
+}
+nav {
+	font-size: 1.25em;
+}
+
+
+
