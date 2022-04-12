@@ -1,0 +1,7 @@
+.mysvg {
+    transition: all 1s;
+}
+svg:hover .mysvg{
+    fill-opacity: calc(70%);
+    transform: scale(.95);
+}
