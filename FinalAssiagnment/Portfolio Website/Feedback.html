@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="About me, Hobbies, Interests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout.css">
+    <meta name="author" content="Kevin Baer">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
+    <title>Feedback</title>
+</head>
+<body>
+    <!-- header and menu -->
+    <div class="container">
+    <header class="header">
+        <h1 class="myname">Feedback</h1>
+    </header>
+    <nav  class="menu">
+        <ul>
+            <li class="bottomblackborder"> <a href="Home.html">Home</a></li>
+            <li class="bottomblackborder"> <a href="Experience.html">Experience</a></li>
+            <li class="bottomblackborder"> <a href="AboutMe.html">About me</a></li>
+            <li class="bottomblackborder"> <a href="ContactMe.html">Contact Me</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <!-- main content -->
+    <article class="content">
+        <h1 class="intro">Give me some feedback</h1>
+        <form action="mailto:kevinbaer@my.cwi.edu?subject=PersonalPortfolioMail" enctype="text/plain" method="POST">
+            <!-- question1 -->
+            <p>The colors used work well with the theme of the website.</p>
+            <label for="colors1">Yes</label>
+            <input type="radio" id="colors1" name="colors">
+            <label for="colors2">Sort of</label>
+            <input type="radio" id="colors2" name="colors">
+            <label for="colors3">No</label>
+            <input type="radio" id="colors3" name="colors">
+            <!-- question2 -->
+            <br><p>The menu is easy to navigate.</p>
+            <label for="menu1">Yes</label>
+            <input type="radio" id="menu1" name="nav">
+            <label for="menu2">Sort of</label>
+            <input type="radio" id="menu2" name="nav">
+            <label for="menu3">No</label>
+            <input type="radio" id="menu3" name="nav">
+            <!-- question3 -->
+            <br><p>You got a clear understanding of my experience.</p>
+            <label for="exp1">Yes</label>
+            <input type="radio" id="exp1" name="exp">
+            <label for="exp2">Sort of</label>
+            <input type="radio" id="exp2" name="exp">
+            <label for="exp3">No</label>
+            <input type="radio" id="exp3" name="exp"><br>
+            <!-- Liked -->
+            <p>What were the things that you liked about this website.</p>
+            <input type="checkbox" id="improve1" name="improve">
+            <label for="improve1">The color scheme</label><br>
+            <input type="checkbox" id="improve2" name="improve">
+            <label for="improve2">The overal theme</label><br>
+            <input type="checkbox" id="improve3" name="improve">
+            <label for="improve3">The readablity</label><br>
+            <input type="checkbox" id="improve4" name="improve">
+            <label for="improve4">The navigation</label><br><br>
+            <!-- extra -->
+            <label for="comments">If you have any comments or improvements <br> for me please enter them here:</label><br>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
+            <!-- submit/reset -->
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit"> 
+        </form>
+    </article>
+
+    <!-- footer -->
+    <footer class="footer">
+        Email me at:<a href="mailto:kevinbaer@my.cwi.edu"> kevinbaer@my.cwi.edu</a>
+        or call:<a href="tell:+12087412217"> 2087412217</a> <br>
+        <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a>
+        <a href="https://docs.github.com/" target="_blank"><img src="images/githhub.png" alt="githhub"></a>
+    </footer>
+    </div>
+</body>
+</html>
