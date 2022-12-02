@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../fonts/quicksand-regular-webfont.woff) format(woff);
+    src: url(../fonts/quicksand-regular-webfont.woff2) format(woff2);
+}
+html, body{
+    height: 90%;
+}
+body{
+    background-image: url(../images/spaceman.png);
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-color: #2C2C2C;
+
+}
+.myname{
+    color: white;
+    border-style: solid;
+    border-color: lightgray;
+    padding: 10px;
+    border-width: 2px;
+    font-family:'Goldman', cursive, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 0px;
+    position: relative;
+    float: left;
+}
+.container{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 200px 40px;
+    padding: 20px;
+    position: relative;
+}
+.header{
+    grid-column: 1/6;
+    margin-left: 38px;
+    position: relative;
+}
+.menu{
+    grid-column: 1/3;
+    margin-top: 60px;
+}
+.content{
+    grid-column: 3/-1;
+    margin: 20px;
+    font-size: 1.1em;
+    padding: 15px;
+    margin-top: 70px;
+    float: left;
+    color: white;
+
+}
+.footer{
+    grid-column: 1/-1;
+    text-align: center;
+    margin: 5px;
+    font-size: 1.3em;
+    position: fixed;
+    bottom:0;
+    left: 36%;
+    color: white;
+}
+ul > li {  
+    border: 3px solid #60ABA4; 
+    background-color: #60ABA4;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.3em;
+    font-family: Quicksand, sans-serif, cursive;
+    font-style: italic;
+    word-wrap: break-word;
+}
+.bottomblackborder{
+    border-bottom-color: black;
+    border-style: solid;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.footer > a:link{
+    color: #60ABA4;
+    text-decoration: none;
+}
+.footer > a:hover{
+    text-decoration: underline;
+}
+.intro{
+    border-left: 5px solid #eee;
+    padding-left: 10px;
+}
+.myphoto{
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+}
+label{
+    text-align: left;
+    position: relative;
+}
+img{
+    margin-top: 10px;
+    position: relative;
+}
