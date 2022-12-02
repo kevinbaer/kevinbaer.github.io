@@ -1,0 +1,46 @@
+<template>
+  <div id="app">
+    <NavBar/>
+    <router-view/>
+    <PageFooter id="footer" class="w-100"/>
+  </div>
+</template>
+
+<script>
+  import NavBar from './components/NavBar.vue'
+  import PageFooter from './components/PageFooter.vue'
+  export default {
+    name: 'App',
+    components: {
+      NavBar,
+      PageFooter
+    }
+  }
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
+}
+#footer{
+ position:fixed;
+ bottom:0;
+}
+</style>
